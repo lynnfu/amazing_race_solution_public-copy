@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+	
+		  <title>Racer</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="amazing_race.js"></script>
+	</head>
+	<body>
+    <h1></h1>
+    <div class='setup-screen'>
+      <form>
+
+        <h2> Player 1 </h2>
+
+        <input type='text' placeholder="Enter player 1's name" class='player-1-name-input' autofocus>
+
+        <input type='text' placeholder="Search for a photo" class='user1ImageSearch' autofocus>
+
+        <a id="search1Action" href="javascript:void(0);">Search</a>
+
+        <div class='clearfix'>
+          <label>
+            <img src="http://x.annihil.us/u/prod/marvel/i/mg/6/60/538cd3628a05e.jpg">
+            <input type='radio' name='player1Avatar' class='player-1-Avatar' value="http://x.annihil.us/u/prod/marvel/i/mg/6/60/538cd3628a05e.jpg">
+          </label>
+
+          <label>
+            <img src="http://i.annihil.us/u/prod/marvel/i/mg/9/00/537bcb1133fd7.jpg">
+            <input type='radio' name='player1Avatar' class='player-1-Avatar' value="http://i.annihil.us/u/prod/marvel/i/mg/9/00/537bcb1133fd7.jpg">
+          </label>
+
+          <label>
+            <img src="http://x.annihil.us/u/prod/marvel/i/mg/9/80/537ba5b368b7d.jpg">
+            <input type='radio' name='player1Avatar' class='player-1-Avatar' value = "http://x.annihil.us/u/prod/marvel/i/mg/9/80/537ba5b368b7d.jpg">
+          </label>
+
+          <label>
+            <img src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/537ba41563b66.jpg">
+            <input type='radio' name='player1Avatar' class='player-1-Avatar' value="http://x.annihil.us/u/prod/marvel/i/mg/3/40/537ba41563b66.jpg">
+          </label>
+
+          <label>
+            <img src="http://x.annihil.us/u/prod/marvel/i/mg/e/e0/537bafa34baa9.jpg">
+            <input type='radio' name='player1Avatar' class='player-1-Avatar' value="http://x.annihil.us/u/prod/marvel/i/mg/e/e0/537bafa34baa9.jpg">
+          </label>
+
+        </div>
+
+        <h2> Player 2 </h2>
+
+        <input type='text' placeholder="Enter player 2's name" class='player-2-name-input'>
+
+        <input type='text' placeholder="Search for a photo" class='user2ImageSearch' autofocus>
+
+        <a id="search2Action" href="javascript:void(0);">Search</a>
+
+        <div class='clearfix'>
+          <label>
+            <img src="http://x.annihil.us/u/prod/marvel/i/mg/6/60/538cd3628a05e.jpg">
+            <input type='radio' name='player2Avatar' class='player-2-Avatar' value="http://x.annihil.us/u/prod/marvel/i/mg/6/60/538cd3628a05e.jpg">
+          </label>
+
+          <label>
+            <img src="http://i.annihil.us/u/prod/marvel/i/mg/9/00/537bcb1133fd7.jpg">
+            <input type='radio' name='player2Avatar' class='player-2-Avatar' value="http://i.annihil.us/u/prod/marvel/i/mg/9/00/537bcb1133fd7.jpg">
+          </label>
+
+          <label>
+            <img src="http://x.annihil.us/u/prod/marvel/i/mg/9/80/537ba5b368b7d.jpg">
+            <input type='radio' name='player2Avatar' class='player-2-Avatar' value="http://x.annihil.us/u/prod/marvel/i/mg/9/80/537ba5b368b7d.jpg">
+          </label>
+
+          <label>
+            <img src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/537ba41563b66.jpg">
+            <input type='radio' name='player2Avatar' class='player-2-Avatar' value="http://x.annihil.us/u/prod/marvel/i/mg/3/40/537ba41563b66.jpg">
+          </label>
+
+          <label>
+            <img src="http://x.annihil.us/u/prod/marvel/i/mg/e/e0/537bafa34baa9.jpg">
+            <input type='radio' name='player2Avatar' class='player-2-Avatar' value="http://x.annihil.us/u/prod/marvel/i/mg/e/e0/537bafa34baa9.jpg">
+          </label>
+        </div>
+
+        <input type='submit' value='GO!'>
+
+      </form>
+    </div>
+
+    <div class='board'>
+      <div class='clearfix'>
+        <p class='player-1-name'></p>
+        <img class='player player-1'></img>
+      </div>
+      <br>
+      <div class='clearfix'>
+        <p class='player-2-name'></p>
+        <img class='player player-2'></img>
+      </div>
+    </div>
+	</body>
+</html>
